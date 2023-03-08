@@ -419,6 +419,10 @@ p {
   .copyright__wrapper {
     display: flex;
     flex-direction: column; }
+  .hero {
+    height: 250px; }
+    .hero img {
+      top: 165px; }
   .social__wrapper {
     display: none;
     visibility: collapse; }

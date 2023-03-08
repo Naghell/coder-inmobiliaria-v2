@@ -481,6 +481,12 @@ footer {
       display: flex;
       flex-direction: column;
     }
+    .hero {
+      height: 250px;
+      img {
+        top: 165px;
+      }
+    }
     .social__wrapper {
       display: none;
       visibility: collapse;
