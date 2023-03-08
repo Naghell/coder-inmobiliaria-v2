@@ -70,8 +70,7 @@
   background-color: #edf2f4; }
 
 .custom-shape-divider-top {
-  position: absolute;
-  top: 75px;
+  position: relative;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -86,8 +85,8 @@
     transform: rotateY(180deg); }
 
 .custom-shape-divider-bottom {
-  position: absolute;
-  bottom: 365px;
+  position: sticky;
+  top: 1000px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -250,7 +249,12 @@
 .body-shape-divider-bottom {
   width: 100%;
   overflow: hidden;
-  line-height: 0; }
+  line-height: 0;
+  position: relative;
+  top: 175px;
+  background-color: #edf2f4;
+  z-index: 0;
+  margin-bottom: 125px; }
   .body-shape-divider-bottom svg {
     position: relative;
     display: block;
@@ -261,7 +265,7 @@
 
 footer {
   background-color: #edf2f4;
-  height: 36px; }
+  height: 100px; }
   footer a {
     font-family: Montserrat, serif;
     font-weight: 500;

@@ -94,8 +94,7 @@ $font-family_2: monospace;
 }
 
 .custom-shape-divider-top {
-  position: absolute;
-  top: 75px;
+  position: relative;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -115,8 +114,8 @@ $font-family_2: monospace;
 }
 
 .custom-shape-divider-bottom {
-  position: absolute;
-  bottom: 365px;
+  position: sticky;
+  top: 1000px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -298,6 +297,11 @@ $font-family_2: monospace;
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  position: relative;
+  top: 175px;
+  background-color: $color_3;
+  z-index: 0;
+  margin-bottom: 125px;
   svg {
     position: relative;
     display: block;
@@ -311,7 +315,7 @@ $font-family_2: monospace;
 
 footer {
   background-color: $color_3;
-  height: 36px;
+  height: 100px;
   a {
     font-family: $font-family_1;
     font-weight: 500;
