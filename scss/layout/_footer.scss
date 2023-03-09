@@ -1,19 +1,4 @@
-.body-shape-divider-bottom {
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  background-color: $color_3;
-  z-index: 0;
-  svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-  }
-  .shape-fill {
-    fill: $color_1;
-  }
-}
+@import "../components/footer-divider";
 
 footer {
   background-color: $color_3;

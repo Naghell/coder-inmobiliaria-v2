@@ -1,0 +1,54 @@
+button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: $color_3;
+  color: $color_3;
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient($color_1, $color_4);
+  padding: 0;
+  text-transform: uppercase;
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  max-width: 250px;
+  &disabled {
+    cursor: default;
+  }
+  &:-moz-focusring {
+    outline: auto;
+  }
+  svg {
+    display: block;
+    vertical-align: middle;
+  }
+  & [hidden] {
+    display: none;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+  span {
+    font-weight: 900;
+    mix-blend-mode: difference;
+  }
+  &:before {
+    aspect-ratio: 1;
+    background: $color_5;
+    border-radius: 50%;
+    content: "";
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s;
+    width: 0;
+  }
+  &:hover:before {
+    width: 100%;
+  }
+}
