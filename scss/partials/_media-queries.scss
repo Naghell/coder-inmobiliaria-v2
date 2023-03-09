@@ -1,11 +1,23 @@
 @mixin tablet {
     @media screen and (max-width: 768px) {
         @content;
+        body{
+            overflow-x: hidden;
+        }
+        .aos-init:not(.aos-animate):after {
+            position: fixed;
+        }
     }
 }
 
 @mixin mobile {
     @media screen and (max-width: 576px) {
         @content;
+        body{
+            overflow-x: hidden;
+        }
+        .aos-init:not(.aos-animate):after {
+            position: fixed;
+        }
     }
 }
