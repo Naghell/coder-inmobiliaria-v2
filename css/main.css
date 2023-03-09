@@ -174,7 +174,8 @@
 .page__bubble {
   display: flex;
   justify-content: center;
-  max-width: 980px; }
+  max-width: 980px;
+  align-items: center; }
 
 .page__bubble__content h5 {
   font-weight: bold;
