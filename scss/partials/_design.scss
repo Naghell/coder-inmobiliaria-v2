@@ -1,0 +1,13 @@
+$color_1: #2b2d42;
+$color_2: #8d99ae;
+$color_3: #edf2f4;
+$color_4: #ef233c;
+$color_5: #d90429;
+$font-family_1: Montserrat, serif;
+$font-family_2: monospace;
+
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap";
+
+* {
+  font-family: $font-family_1 !important;
+}

@@ -1,0 +1,70 @@
+.body-shape-divider-bottom {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: $color_3;
+  z-index: 0;
+  svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+  }
+  .shape-fill {
+    fill: $color_1;
+  }
+}
+
+footer {
+  background-color: $color_3;
+  height: 100px;
+  a {
+    font-family: $font-family_1;
+    font-weight: 500;
+    color: $color_1;
+    padding-left: 5px;
+    text-decoration: none;
+    transition: 0.25s;
+    &:hover {
+      color: $color_4;
+      cursor: pointer;
+    }
+  }
+}
+
+.footer__text {
+  font-family: $font-family_1;
+  font-weight: 500;
+  color: $color_1;
+  margin: 0;
+}
+
+.info__wrapper {
+  background-color: $color_3;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.info__container {
+  align-self: center;
+}
+
+.info__text {
+  color: $color_1;
+  font-family: $font-family_1;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.copyright__wrapper {
+  background-color: $color_3;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}

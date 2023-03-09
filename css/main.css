@@ -2,6 +2,70 @@
 * {
   font-family: Montserrat, serif !important; }
 
+.custom-shape-divider-top {
+  position: relative;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0; }
+  .custom-shape-divider-top .shape-fill {
+    fill: #2b2d42; }
+  .custom-shape-divider-topsvg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg); }
+
+.custom-shape-divider-bottom {
+  position: sticky;
+  top: 1000px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg); }
+  .custom-shape-divider-bottom .shape-fill {
+    fill: #2b2d42; }
+  .custom-shape-divider-bottomsvg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg); }
+
+.custom-shape-divider-top {
+  position: relative;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0; }
+  .custom-shape-divider-top .shape-fill {
+    fill: #2b2d42; }
+  .custom-shape-divider-topsvg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg); }
+
+.custom-shape-divider-bottom {
+  position: sticky;
+  top: 1000px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg); }
+  .custom-shape-divider-bottom .shape-fill {
+    fill: #2b2d42; }
+  .custom-shape-divider-bottomsvg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg); }
+
 .social__wrapper {
   background-color: #2b2d42;
   height: 36px;
@@ -69,107 +133,12 @@
   width: 100%;
   background-color: #edf2f4; }
 
-.custom-shape-divider-top {
-  position: relative;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0; }
-  .custom-shape-divider-top .shape-fill {
-    fill: #2b2d42; }
-  .custom-shape-divider-topsvg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-    transform: rotateY(180deg); }
-
-.custom-shape-divider-bottom {
-  position: sticky;
-  top: 1000px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg); }
-  .custom-shape-divider-bottom .shape-fill {
-    fill: #2b2d42; }
-  .custom-shape-divider-bottomsvg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-    transform: rotateY(180deg); }
-
-.prop__wrapper {
-  background-color: #2b2d42;
-  height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-  .prop__wrapper select {
-    appearance: none;
-    border: none;
-    color: #edf2f4;
-    font-family: Montserrat, serif;
-    font-weight: 700;
-    font-size: 2rem;
-    display: flex;
-    text-align: center;
-    background-color: #edf2f4;
-    height: 100%;
-    width: 375px; }
-    .prop__wrapper select option {
-      color: #edf2f4;
-      font-family: monospace;
-      font-weight: 500;
-      font-size: 1.25rem; }
-
-.prop__categories img {
-  width: 50px;
-  height: 50px;
-  margin-right: 45px; }
-
-.prop__browser {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20% 10px 0; }
-
-.prop__browser__bar {
-  width: 100%;
-  height: 50px;
-  background-color: #2b2d42;
-  display: flex;
-  align-items: center;
-  border-radius: 60px;
-  padding: 10px 50px; }
-  .prop__browser__bar input {
-    background: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;
-    padding: 24px 24px 24px 0px;
-    font-family: Montserrat, serif;
-    font-weight: 500;
-    text-align: left; }
-  .prop__browser__bar button {
-    display: flex;
-    align-items: center;
-    background-color: #2b2d42;
-    border: 0;
-    border-radius: 50%;
-    height: 35px;
-    cursor: pointer; }
-    .prop__browser__bar button img {
-      width: 25px; }
-
 .page__container {
   background-color: #2b2d42;
   color: #edf2f4;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 150px; }
+  padding-top: 75px; }
 
 .page__bubble {
   display: flex;
@@ -236,62 +205,6 @@
     .page__contact button:hover:before {
       width: 100%; }
 
-.text-align-right {
-  text-align: right; }
-
-.text-align-left {
-  text-align: left; }
-
-.prop__items {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.prop__item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 275px;
-  height: 350px;
-  margin: 15px 15px;
-  padding: 0 !important;
-  border-radius: 20px;
-  background: #edf2f4;
-  object-fit: contain; }
-  .prop__item img {
-    border-radius: 20px 20px 0 0;
-    height: 65%;
-    width: 1000px;
-    object-fit: fill;
-    background-size: cover; }
-  .prop__item button {
-    font-family: Montserrat, serif;
-    font-weight: 500;
-    background-color: #edf2f4;
-    border: #d90429 solid 1px;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 5px 0 10px; }
-    .prop__item button:hover {
-      background-color: #d90429;
-      border: #ef233c solid 1px;
-      transition: 0.5s;
-      cursor: pointer; }
-
-.prop__item__price {
-  font-family: Montserrat, serif;
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin: 5px auto; }
-
-.prop__item__desc {
-  font-family: Montserrat, serif;
-  font-weight: 500;
-  text-align: center;
-  padding: 0 10px;
-  margin: 5px auto; }
-
 .body-shape-divider-bottom {
   width: 100%;
   overflow: hidden;
@@ -351,6 +264,125 @@ footer {
   justify-content: center;
   align-items: center;
   padding-bottom: 20px; }
+
+.prop__wrapper {
+  background-color: #2b2d42;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .prop__wrapper select {
+    appearance: none;
+    border: none;
+    color: #edf2f4;
+    font-family: Montserrat, serif;
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    background-color: #edf2f4;
+    height: 100%;
+    width: 375px; }
+    .prop__wrapper select option {
+      color: #edf2f4;
+      font-family: monospace;
+      font-weight: 500;
+      font-size: 1.25rem; }
+
+.prop__categories img {
+  width: 50px;
+  height: 50px;
+  margin-right: 45px; }
+
+.prop__browser {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20% 10px 0; }
+
+.prop__browser__bar {
+  width: 100%;
+  height: 50px;
+  background-color: #2b2d42;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 50px; }
+  .prop__browser__bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 24px 24px 0px;
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    text-align: left; }
+  .prop__browser__bar button {
+    display: flex;
+    align-items: center;
+    background-color: #2b2d42;
+    border: 0;
+    border-radius: 50%;
+    height: 35px;
+    cursor: pointer; }
+    .prop__browser__bar button img {
+      width: 25px; }
+
+.text-align-right {
+  text-align: right; }
+
+.text-align-left {
+  text-align: left; }
+
+.prop__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.prop__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 275px;
+  height: 350px;
+  margin: 15px 15px;
+  padding: 0 !important;
+  border-radius: 20px;
+  background: #edf2f4;
+  object-fit: contain; }
+  .prop__item img {
+    border-radius: 20px 20px 0 0;
+    height: 65%;
+    width: 1000px;
+    object-fit: fill;
+    background-size: cover; }
+  .prop__item button {
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    background-color: #edf2f4;
+    border: #d90429 solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0 10px; }
+    .prop__item button:hover {
+      background-color: #d90429;
+      border: #ef233c solid 1px;
+      transition: 0.5s;
+      cursor: pointer; }
+
+.prop__item__price {
+  font-family: Montserrat, serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 5px auto; }
+
+.prop__item__desc {
+  font-family: Montserrat, serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 10px;
+  margin: 5px auto; }
 
 .wrapper__container {
   background-color: #2b2d42;
