@@ -1,0 +1,36 @@
+.about__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  p {
+    color: $color_3;
+    max-width: 700px;
+    text-align: center;
+    padding-bottom: 30px;
+    
+    @include tablet {
+      width: 550px;
+    }
+
+    @include mobile {
+      width: 300px;
+    }
+  }
+  iframe {
+    width: 712px;
+    height: 600px;
+    border-radius: 10px;
+    
+    @include tablet {
+      width: 400px;
+      height: 350px;
+    }
+
+    @include mobile {
+      width: 300px;
+      height: 275px;
+    }
+  }
+}

@@ -6,7 +6,7 @@
   color: $color_3;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 75px;
+  padding: 75px 0;
 
   @include tablet {
     padding: 25px 10px;

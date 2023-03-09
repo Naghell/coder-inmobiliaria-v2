@@ -3,6 +3,8 @@
 @import "./layout/header";
 @import "./layout/landing";
 @import "./layout/footer";
+@import "./layout/about";
+@import "./layout/contact";
 
 .prop__wrapper {
   background-color: $color_1;
@@ -143,85 +145,8 @@
   color: $color_1;
   margin: 0;
 }
-.section__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.section__text {
-  color: $color_1;
-  max-width: 600px;
-}
-.section__img {
-  font-family: $font-family_1;
-  font-weight: 500;
-  font-size: 1.25rem;
-  color: $color_1;
-}
 .prop__container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.form__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  max-width: 500px;
-  font-family: $font-family_1;
-  font-weight: 500;
-  font-size: 1rem;
-  color: $color_3;
-  button {
-    border-radius: 99rem;
-    border-width: 2px;
-  }
-  input {
-    margin: 10px;
-    padding: 5px;
-    height: 40px;
-    width: 100%;
-    max-width: 300px;
-    background-color: $color_2;
-    border: none;
-    border: $color_1 solid 1px;
-    border-radius: 10px;
-  }
-  select {
-    margin: 10px;
-    padding: 5px;
-    height: 40px;
-    width: 100%;
-    max-width: 300px;
-    background-color: $color_2;
-    border: none;
-    border: $color_1 solid 1px;
-    border-radius: 10px;
-  }
-  textarea {
-    margin: 10px;
-    padding: 10px;
-    height: 100px;
-    width: 300px;
-    min-width: 300px;
-    max-width: 300px;
-    min-height: 150px;
-    max-height: 300px;
-    background-color: $color_2;
-    border: none;
-    border: $color_1 solid 1px;
-    border-radius: 10px;
-  }
-  option {
-    font-family: $font-family_2;
-  }
-  h1 {
-    text-align: center;
-  }
-  p {
-    text-align: center;
-  }
 }
