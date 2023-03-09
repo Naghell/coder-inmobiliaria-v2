@@ -6,22 +6,3 @@
 @import "./layout/about";
 @import "./layout/contact";
 @import "./layout/props";
-.wrapper__container {
-  background-color: $color_1;
-  height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrapper__title {
-  font-family: $font-family_1;
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: $color_1;
-  margin: 0;
-}
-.prop__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

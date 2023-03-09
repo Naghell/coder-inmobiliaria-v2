@@ -220,29 +220,30 @@
     <main class="page__container d-flex justify-content-center">
       <form class="form__container">
         <div class="form__desc">
-          <h1 class="fs-2">Envíanos un mensaje</h1>
-          <p class="fs-6">
+          <h1 data-aos="fade-down" class="fs-2">Envíanos un mensaje</h1>
+          <p data-aos="fade-down" class="fs-6">
             Completa el formulario para contactarnos sobre cualquier pregunta o
             comentario que tengas y nos contactaremos a la brevedad
           </p>
         </div>
         <input
+          data-aos="zoom-in"
           placeholder="Nombre y apellido *"
           type="text"
           id="first_name"
           name="first_name"
         />
-        <input placeholder="Teléfono *" type="tel" id="phone" name="phone" />
-        <input placeholder="Email *" type="email" id="email" name="email" />
-        <select name="motivo">
+        <input data-aos="zoom-in" placeholder="Teléfono *" type="tel" id="phone" name="phone" />
+        <input data-aos="zoom-in" placeholder="Email *" type="email" id="email" name="email" />
+        <select data-aos="zoom-in" name="motivo">
           <option selected disabled>Motivo de la consulta *</option>
           <option value="Alquiler">Alquiler</option>
           <option value="Venta">Compra</option>
           <option value="Casa">Venta</option>
         </select>
-        <textarea name="consult" rows="10" placeholder="Detalle su consulta *">
+        <textarea data-aos="zoom-in" name="consult" rows="10" placeholder="Detalle su consulta *">
         </textarea>
-        <button>
+        <button data-aos="zoom-in" type="submit">
           <span>Enviar</span>
         </button>
       </form>
