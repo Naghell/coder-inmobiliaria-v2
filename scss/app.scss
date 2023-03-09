@@ -4,7 +4,6 @@
 @import "./layout/landing";
 @import "./layout/footer";
 
-
 .prop__wrapper {
   background-color: $color_1;
   height: 75px;
@@ -170,20 +169,25 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
   max-width: 500px;
   font-family: $font-family_1;
   font-weight: 500;
   font-size: 1rem;
-  color: $color_4;
+  color: $color_3;
+  button {
+    border-radius: 99rem;
+    border-width: 2px;
+  }
   input {
     margin: 10px;
     padding: 5px;
     height: 40px;
     width: 100%;
     max-width: 300px;
-    background-color: $color_5;
+    background-color: $color_2;
     border: none;
-    border: $color_4 solid 1px;
+    border: $color_1 solid 1px;
     border-radius: 10px;
   }
   select {
@@ -192,9 +196,9 @@
     height: 40px;
     width: 100%;
     max-width: 300px;
-    background-color: $color_5;
+    background-color: $color_2;
     border: none;
-    border: $color_4 solid 1px;
+    border: $color_1 solid 1px;
     border-radius: 10px;
   }
   textarea {
@@ -206,27 +210,10 @@
     max-width: 300px;
     min-height: 150px;
     max-height: 300px;
-    background-color: $color_5;
+    background-color: $color_2;
     border: none;
-    border: $color_4 solid 1px;
+    border: $color_1 solid 1px;
     border-radius: 10px;
-  }
-  button {
-    font-family: $font-family_1;
-    font-weight: 500;
-    background-color: $color_3;
-    border: $color_5 solid 1px;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 0 50px;
-    height: 50px;
-    width: 100px;
-    &:hover {
-      background-color: $color_4;
-      border: $color_4 solid 1px;
-      transition: 0.5s;
-      cursor: pointer;
-    }
   }
   option {
     font-family: $font-family_2;
@@ -234,31 +221,7 @@
   h1 {
     text-align: center;
   }
-}
-p {
-  text-align: center;
-}
-.social__container__nav {
-  display: none;
-  visibility: collapse;
-  a {
-    margin: 20px;
-  }
-}
-
-@media screen and (max-width: 490px) {
-  .hero {
-    height: 250px;
-    img {
-      top: 165px;
-    }
-  }
-  .social__wrapper {
-    display: none;
-    visibility: collapse;
-  }
-  .social__container__nav {
-    display: flex;
-    visibility: visible;
+  p {
+    text-align: center;
   }
 }

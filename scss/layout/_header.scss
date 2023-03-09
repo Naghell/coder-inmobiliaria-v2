@@ -13,6 +13,13 @@
     transform: translate(-50%, -50%);
     padding: 0 15px 0 15px;
   }
+
+  @include mobile {
+    height: 250px;
+    img {
+      top: 165px;
+    }
+  }
 }
 
 .hero__background {

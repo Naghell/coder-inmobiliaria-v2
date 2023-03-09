@@ -3,6 +3,11 @@
   height: 36px;
   display: flex;
   justify-content: space-between;
+
+  @include mobile {
+    display: none;
+    visibility: collapse;
+  }
 }
 
 .social__container {
@@ -58,4 +63,17 @@
 
 .dropdown-menu {
   background-color: $color_1 !important;
+}
+
+.social__container__nav {
+  display: none;
+  visibility: collapse;
+  a {
+    margin: 20px;
+  }
+
+  @include mobile {
+    display: flex;
+    visibility: visible;
+  }
 }
