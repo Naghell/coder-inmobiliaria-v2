@@ -257,6 +257,10 @@ footer {
   justify-content: center;
   align-items: center;
   padding-bottom: 20px; }
+  @media screen and (max-width: 768px) {
+    .copyright__wrapper {
+      display: flex;
+      flex-direction: column; } }
 
 .prop__wrapper {
   background-color: #2b2d42;
@@ -479,9 +483,6 @@ p {
     margin: 20px; }
 
 @media screen and (max-width: 490px) {
-  .copyright__wrapper {
-    display: flex;
-    flex-direction: column; }
   .hero {
     height: 250px; }
     .hero img {
