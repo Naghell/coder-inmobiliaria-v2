@@ -196,7 +196,9 @@ button {
     object-fit: fill; }
   @media screen and (max-width: 576px) {
     .page__bubble {
-      flex-direction: column; } }
+      flex-direction: column; }
+      .page__bubble:nth-child(2) {
+        flex-direction: column-reverse; } }
 
 .page__bubble__content h5 {
   font-weight: bold;

@@ -26,6 +26,9 @@
 
   @include mobile {
     flex-direction: column;
+    &:nth-child(2) {
+      flex-direction: column-reverse;
+    }
   }
 }
 
