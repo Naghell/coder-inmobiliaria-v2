@@ -186,7 +186,7 @@ button {
   max-width: 980px;
   align-items: center; }
   .page__bubble img {
-    width: 100%; }
+    object-fit: fill; }
   @media screen and (max-width: 576px) {
     .page__bubble {
       flex-direction: column; } }

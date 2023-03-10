@@ -19,7 +19,7 @@
   max-width: 980px;
   align-items: center;
   img {
-    width: 100%;
+    object-fit: fill;
   }
 
   @include mobile {
