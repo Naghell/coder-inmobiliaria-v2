@@ -6,7 +6,9 @@
   color: $color_3;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   padding: 75px 0;
+  align-items: center;
 
   @include tablet {
     padding: 25px 10px;
