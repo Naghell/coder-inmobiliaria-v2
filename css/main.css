@@ -142,7 +142,8 @@ button {
   text-transform: uppercase;
   overflow: hidden;
   padding: 0.8rem 3rem;
-  max-width: 250px; }
+  max-width: 250px;
+  color: #2b2d42; }
   buttondisabled {
     cursor: default; }
   button:-moz-focusring {
@@ -156,7 +157,8 @@ button {
     transform: scale(1.1); }
   button span {
     font-weight: 900;
-    mix-blend-mode: difference; }
+    mix-blend-mode: color-burn;
+    color: #101010; }
   button:before {
     aspect-ratio: 1;
     background: #d90429;
