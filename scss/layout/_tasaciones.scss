@@ -1,0 +1,30 @@
+.tasaciones__text {
+  z-index: 1;
+  span {
+    font-weight: bold;
+    color: $color_4;
+    font-size: 1.5rem;
+    z-index: 1;
+
+    @include mobile {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.tasacion__icon {
+  width: 550px;
+  margin-bottom: -100px;
+  position: absolute;
+  top: 75%;
+  right: 25%;
+
+  @include tablet {
+    width: 400px;
+    right: 25%;
+  }
+
+  @include mobile {
+    visibility: hidden;
+  }
+}
