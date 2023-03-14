@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  z-index: 1;
 }
 
 .prop__item {
@@ -38,4 +39,46 @@
   text-align: center;
   padding: 0 10px;
   margin: 5px auto;
+}
+
+.props__text {
+  display: flex;
+  justify-content: center;
+  max-width: 980px;
+  align-items: center;
+  z-index: 0;
+  img {
+    align-self: center;
+  }
+
+  @include mobile {
+    flex-direction: column-reverse;
+  }
+}
+
+.props__text__content {
+  h5 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    @include mobile {
+      text-align: center;
+    }
+  }
+  p {
+    font-size: 1rem;
+    @include mobile {
+      text-align: center;
+      padding: 0 50px;
+    }
+    span {
+      font-weight: bold;
+      color: $color_4;
+      font-size: 1rem;
+    }
+  }
+  span {
+    font-weight: bold;
+    color: $color_4;
+    font-size: 2.5rem;
+  }
 }
