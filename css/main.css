@@ -100,7 +100,11 @@
   display: none;
   visibility: collapse; }
   .social__container__nav a {
+    padding-right: 10px;
     margin: 20px; }
+    .social__container__nav a img {
+      height: 30px;
+      width: 30px; }
   @media screen and (max-width: 576px) {
     .social__container__nav {
       display: flex;

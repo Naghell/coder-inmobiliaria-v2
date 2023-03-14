@@ -79,7 +79,12 @@
   display: none;
   visibility: collapse;
   a {
+    padding-right: 10px;
     margin: 20px;
+    img {
+      height: 30px;
+      width: 30px;
+    }
   }
 
   @include mobile {
