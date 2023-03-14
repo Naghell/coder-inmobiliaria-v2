@@ -46,18 +46,6 @@
   }
 }
 
-.about__blob {
-  width: 550px;
-  position: absolute;
-  top: 400px;
-  left: 60%;
-
-  @include mobile {
-    top: 300px;
-    left: 50%;
-  }
-}
-
 .about__icon {
   width: 550px;
   margin-bottom: -100px;
