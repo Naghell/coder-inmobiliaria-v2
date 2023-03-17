@@ -2,6 +2,9 @@
 * {
   font-family: Montserrat, serif !important; }
 
+html {
+  scroll-behavior: smooth; }
+
 .custom-shape-divider-top {
   position: relative;
   left: 0;
@@ -508,6 +511,3 @@ footer {
   @media screen and (max-width: 576px) {
     .tasacion__icon {
       visibility: hidden; } }
-
-html {
-  scroll-behavior: smooth; }

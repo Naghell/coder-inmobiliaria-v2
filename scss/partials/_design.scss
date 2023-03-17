@@ -11,3 +11,7 @@ $font-family_2: monospace;
 * {
   font-family: $font-family_1 !important;
 }
+
+html {
+    scroll-behavior: smooth;
+}
